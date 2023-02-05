@@ -1,0 +1,31 @@
+.menu {
+  position: relative;
+  top: 0.5rem;
+  font-weight: 500;
+  color: rgb(255, 225, 0);
+  font-style: oblique;
+  box-sizing: border-box;
+  font-size: 1rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 3rem;
+    color: rgb(255, 242, 0);
+    font-size: medium;
+  }
+
+  li {
+    color: rgb(255, 242, 0);
+    font-size: medium;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    color: rgb(255, 242, 0);
+    font-size: medium;
+  }
+}
