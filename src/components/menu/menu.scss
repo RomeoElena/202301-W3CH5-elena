@@ -6,6 +6,7 @@
   font-style: oblique;
   box-sizing: border-box;
   font-size: 1rem;
+  justify-content: center;
 
   ul {
     list-style: none;
@@ -14,18 +15,18 @@
     display: flex;
     gap: 3rem;
     color: rgb(255, 242, 0);
-    font-size: medium;
+    font-size: 1rem;
   }
 
   li {
     color: rgb(255, 242, 0);
-    font-size: medium;
+    font-size: 1rem;
   }
 
   a {
     text-decoration: none;
     color: inherit;
     color: rgb(255, 242, 0);
-    font-size: medium;
+    font-size: 1rem;
   }
 }
