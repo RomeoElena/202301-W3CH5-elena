@@ -1,0 +1,19 @@
+.car {
+  background-color: white;
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  grid: 20rem;
+
+  &__img {
+    justify-content: center;
+  }
+  &__name {
+    font-size: 0.5rem;
+    color: black;
+  }
+
+  &__button {
+    margin-bottom: 2rem;
+  }
+}
