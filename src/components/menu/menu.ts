@@ -1,8 +1,17 @@
 /* eslint-disable no-unused-vars */
-import { MenuOption } from '../../index';
 import { Component } from '../component/component';
 import './menu.scss';
 
+export type MenuOption = {
+  label: string;
+  path: string;
+};
+
+export const menuOptions: MenuOption[] = [
+  { label: 'Home', path: '/index' },
+  { label: 'My Favourites', path: '/favorites' },
+  { label: 'Details', path: '/about' },
+];
 export class Menu extends Component {
   constructor(public selector: string, public menuOptions: MenuOption[]) {
     super();

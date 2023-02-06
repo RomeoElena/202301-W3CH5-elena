@@ -1,0 +1,8 @@
+.pokemons {
+  background-color: rgb(0, 119, 255);
+  display: grid;
+
+  &__grid {
+    display: grid;
+  }
+}

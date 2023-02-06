@@ -1,7 +1,8 @@
-import { Pokemon, PokesStructure } from '../models/poke';
+import { Pokemon, PokesStructure } from '../models/pokesStructure';
 
 export const POKEMONS: PokesStructure[] = [
-  { id: '', name: '', url: '', isFavorite: false },
-  new Pokemon('id', 'name'),
-  new Pokemon('id', 'name'),
+  new Pokemon('name', 'picture'),
+  new Pokemon('name', 'picture'),
+  new Pokemon('name', 'picture'),
+  new Pokemon('name', 'picture'),
 ];
