@@ -1,16 +1,17 @@
+/* eslint-disable no-new */
+// import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 
+import { Menu } from './components/menu/menu';
+// Import { Tasks } from './components/tasks/tasks';
 import './index.scss';
+// Import { TaskApiRepo } from './services/repository/task.api.repo';
 
-import { Footer } from './components/footer/footer';
-import { Pokemons } from './components/pokemons/pokemons';
+new Header('#root');
+new Menu('.header');
 
-import { PokeApiRepo } from './services/poke.api.repo';
+// If (location.pathname === '/home') {
+//   new Tasks('main', new TaskApiRepo());
+// }
 
-// eslint-disable-next-line no-new
-new Header('main');
-// eslint-disable-next-line no-new
-new Pokemons('main', new PokeApiRepo());
-
-// eslint-disable-next-line no-new
-new Footer('main');
+// new Footer('#root');
