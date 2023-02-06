@@ -1,25 +1,15 @@
-type HasId = {
-  id: string;
-};
-
-export type ProtoPokesStructure = {
+export type PokesStructure = {
   name: string;
-  url: string;
-  isFavorite: boolean;
+  img: string;
 };
-
-export type PokesStructure = HasId & ProtoPokesStructure;
 
 export class Pokemon implements PokesStructure {
+  public name: string;
+  public img: string;
   public isFavorite: boolean;
-  public id!: string;
-
-  constructor(
-    // eslint-disable-next-line no-unused-vars
-    public name: string,
-    // eslint-disable-next-line no-unused-vars
-    public url: string
-  ) {
+  constructor(name: string, img: string) {
+    this.name = name;
+    this.img = img;
     this.isFavorite = false;
   }
 }
